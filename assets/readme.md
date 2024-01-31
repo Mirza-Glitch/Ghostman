@@ -1,0 +1,1 @@
+This directory includes js and css files of the build version of original [Ghostman](https://github.com/zakaria-tl/ghostman) ReactJs code.

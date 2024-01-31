@@ -1,0 +1,15 @@
+{
+  "id": "acode.api-tester.ghostman",
+  "name": "Ghostman - Api Tester",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "minVersionCode" : 331,
+  "author": {
+    "name": "Mirza Glitch",
+    "email": "mirzaglitch@gmail.com",
+    "github": "Mirza-Glitch"
+  }
+}
