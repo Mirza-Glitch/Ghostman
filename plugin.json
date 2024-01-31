@@ -1,5 +1,5 @@
 {
-  "id": "acode.api-tester.ghostman",
+  "id": "acode.api_tester.ghostman",
   "name": "Ghostman - Api Tester",
   "main": "dist/main.js",
   "version": "1.0.0",
