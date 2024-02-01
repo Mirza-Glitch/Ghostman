@@ -6,7 +6,7 @@ class AcodePlugin {
 		this.$page.settitle("Ghostman - API Tester");
 		acode.addIcon(
 			"ghostman-api-tester",
-			`https://localhost/__cdvfile_files-external__/plugins/${plugin.id}/assets/ghostman.png`
+			`${this.baseUrl}assets/ghostman.png`
 		);
 		const loader = `
     <style>
@@ -41,7 +41,7 @@ class AcodePlugin {
     `;
 		const styleTag = tag("link", {
 			rel: "stylesheet",
-			href: `https://localhost/__cdvfile_files-external__/plugins/${plugin.id}/assets/index.css`
+			href: `${this.baseUrl}assets/index.css`
 		});
 		document.head.append(styleTag);
 		const div = tag("div", {
@@ -52,7 +52,7 @@ class AcodePlugin {
 		const scriptTag = tag("script", {
 			id: "api_t_script",
 			type: "module",
-			src: `https://localhost/__cdvfile_files-external__/plugins/${plugin.id}/assets/index.js`,
+			src: `${this.baseUrl}assets/index.js`,
 			attr: {
 				crossorigin: ""
 			}
