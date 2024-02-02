@@ -1,4 +1,5 @@
 import plugin from "../plugin.json";
+import styles from "../assets/index.css"
 
 class AcodePlugin {
 	init() {
@@ -39,11 +40,10 @@ class AcodePlugin {
     </style>
     <div class="parent_l"><span class="loader"></span></div>
     `;
-		const styleTag = tag("link", {
-			rel: "stylesheet",
-			href: `${this.baseUrl}assets/index.css`
+		const styleTag = tag("style", {
+			textContent: styles
 		});
-		document.head.append(styleTag);
+		this.$page.appendBody(styleTag);
 		const div = tag("div", {
 			id: "_api_tester_root"
 		});

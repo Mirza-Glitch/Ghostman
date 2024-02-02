@@ -2,7 +2,7 @@
   "id": "acode.api_tester.ghostman",
   "name": "Ghostman - Api Tester",
   "main": "dist/main.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "readme": "readme.md",
   "icon": "icon.png",
   "files": [],
